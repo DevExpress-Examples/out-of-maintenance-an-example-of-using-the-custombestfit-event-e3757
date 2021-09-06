@@ -1,5 +1,4 @@
-﻿Imports Microsoft.VisualBasic
-Imports System
+﻿Imports System
 Imports System.Collections.Generic
 Imports System.Windows
 Imports System.Windows.Controls
@@ -10,6 +9,7 @@ Namespace WpfApplication5
 	''' </summary>
 	Partial Public Class MainWindow
 		Inherits Window
+
 		Public Sub New()
 			InitializeComponent()
 			Dim source() As String = { "123456789", "1234567890", "12345678901", "123456789012" }
